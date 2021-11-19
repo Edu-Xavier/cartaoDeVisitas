@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Minha primeira página</title>
+		<meta charset="utf-8">
+
+		<link href="style.css" rel="stylesheet">
+
+ 	</head>
+
+ 	<body>
+
+ 		<a href="#vai_corinthians"> Corinthians</a>
+
+ 		<h1 id="Titulo">Título 1</h1>
+ 		<h2>Sub-título</h2>
+ 		<div id="paragrafos">
+ 		<p id="principal">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaO Chelsea não tomou conhecimento do lanterna Norwich neste sábado e massacrou o rival por 7 a 0, em Stamford Bridge, pela nona rodada do Campeonato Inglês. Foi a maior goleada da história do confronto. E uma goleada construída sem centroavante (Lukaku e Werner, machucados, não atuaram) e somente com gols ingleses: Mount (destaque da partida com três gols), Hudson-Odoi, Reece James e Bem Chilwell, todos atletas da seleção da Inglaterra. Aarons, contra, completou o marcador.</p>
+
+ 		<p class="texto_azul"> Esse é um <strong>texto em negrito</strong></p>
+
+ 		<p class="texto_azul"> Esse é um <em>texto em itálico</em></p>
+
+ 		<p class="texto_azul"> Esse é um <mark>texto com marcação</mark></p>
+
+ 		<p> Esse é um <small>texto com a tag small</small></p>
+
+ 		<p> Esse é um <del>texto que foi removido</del> e substituido por esse</p>
+
+ 		<p> Esse é um <ins>texto que foi inserigo</ins></p>
+
+ 		<p> Esse é um <sub>texto subscript</sub></p>
+
+ 		<p> Esse é um <sup>texto superscript</sup></p>
+
+ 		<a href="sobre.html">sobre Cleiton Rasta</a>
+ 		<br>
+ 		</div>
+ 		<img id="vai_corinthians" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTkNlRpTyQuD8irUHpJiUHVq7Taxtszek_Qg&usqp=CAU" alt="Willian" width="250">
+
+ 		<a href="https://ge.globo.com/futebol/times/corinthians/noticia/noticias-corinthians-balanco-financeiro-primeiro-semestre-2021-divida-superavit.ghtml">
+ 		<br><br><br>
+
+ 		<img src="Imagens/escudo.jpg" alt="Escudo do Corinthians" height="200">
+ 		</a>
+
+ 		<h2>Lista de Bombas</h2>
+ 		<ul>
+ 			<li>Abobrinha</li>
+ 			<li>Sacanagem</li>
+ 			<li>Judaria</li>
+
+
+ 		</ul>
+
+ 		<h2>Ranking dos maiores tcholas</h2>
+ 		<ol>
+ 			<li>Oberdan</li>
+ 			<li>João Peido</li>
+ 			<li>Rafael</li>
+ 		</ol>
+
+ 		<table>
+ 			<tr>
+ 				<th>Nome</th>
+ 				<th>Telefone</th>
+ 				<th>Email</th>
+ 			</tr>
+ 			<tr>
+ 				<td>Jorge</td>
+ 				<td>69696969</td>
+ 				<td>jorginhoda12@gmail.com</td>
+ 			</tr>
+ 			<tr>
+ 				<td>Cleiton Rasta</td>
+ 				<td>0195545451</td>
+ 				<td>cleitingelado@yahoo.com</td>	
+			</tr>
+
+ 		</table>
+
+
+
+ 		<div id="cm"></div>
+ 		<div id="mm"></div>
+ 		<div id="in"></div>
+ 		<div id="px"></div>
+ 		<div id="pt"></div>
+ 		<div id="pc"></div>
+
+ 		<br><br><br>
+
+
+
+
+
+
+ 		<div id="base"></div>
+
+ 		<div id="container">
+ 			<div id="conteudo">
+ 				Texto qualquer
+ 			</div>
+ 		</div>
+
+ 		outro texto
+
+
+
+body{
+
+}
+
+#paragrafos{
+	
+	background-image: url(Imagens/escudo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#Titulo{
+	color: rgb(0,100,255,);
+}
+
+.texto_azul{
+	color: blue;
+}
+
+#cm{
+	background-color: blue;
+	width: 1cm;
+	height: 1cm;
+}
+#mm{
+	background-color: red;
+	width: 1mm;
+	height: 1mm;
+}
+#in{
+	background-color: red;
+	width: 1in;
+	height: 1in;
+}
+#px{
+	background-color: blue;
+	width: 10px;
+	height: 10px;
+}
+#pt{
+	background-color: red;
+	width: 10pt;
+	height: 10pt;
+}
+#pc{
+	background-color: blue;
+	width: 1pc;
+	height: 1pc;
+}
+
+
+
+
+#base{
+	height: 10px;
+	background-color: red;
+}
+
+#container{
+	background-color: blue;
+	color: white;
+	padding-top: 10px;
+
+}
